@@ -12,6 +12,10 @@ const fetchRecipes = async (query) => {
      recipeDiv.classList.add('recipe');
      recipeDiv.innerHTML = `
      <img src="${meal.strMealThumb}">
+     <h3>${meal.strMeal}</h3>
+     <p> ${meal.strArea} <p>
+     <p> ${meal.strCategory} <p>
+
 
      `  
      recipeContainer.appendChild(recipeDiv);
