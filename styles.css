@@ -53,11 +53,19 @@ form button[type="submit"]:hover {
   background-color: rgba(0, 0, 255, 0.452);
 }
 
-.recipe-container{
-    text-align: center;
-    margin-top: 20px
-}
+/* Main section */
+.recipe-container {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 40px;
+  width: 300px;
+  margin: 1px auto;
+  
+ 
 
+}
 
 @media screen and (max-width: 600px) {
   header nav {
@@ -67,4 +75,3 @@ form button[type="submit"]:hover {
     width: 80%;
   }
 }
-
