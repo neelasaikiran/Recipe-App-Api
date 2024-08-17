@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe App</title>
     <link rel="stylesheet" href="./styles.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 
 <body>
@@ -14,8 +14,8 @@
         <nav>
             <img src="./assets/logo.png" alt="Logo">
             <form>
-                <input type="text" placeholder="search for recipes..." class="searchbox">
-                <button type="submit" class="searchBtn">search</button>
+                <input type="text" placeholder="Search for recipes..." class="searchbox">
+                <button type="submit" class="searchBtn">Search</button>
             </form>
         </nav>
     </header>
@@ -25,12 +25,13 @@
             <div class="recipe-container">
                 <h2>Search Your Favourite Recipes</h2>
             </div>
-            <div class="recipe-details">
-                <button type="submit" class="recipe-close-btn">
-                  <i class="fas fa-times"></i>
+            <!-- Recipe Details Section -->
+            <div class="recipe-details" style="display:none;">
+                <button class="recipe-close-btn">
+                    <i class="fas fa-times"></i>
                 </button>
+                <div class="recipe-details-content"></div>
             </div>
-            <div class="recipe-details-content"> </div>
         </section>
     </main>
 
